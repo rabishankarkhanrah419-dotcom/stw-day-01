@@ -43,4 +43,39 @@ const xyz = undefined;
 console.log(abc===xyz);
 
 console.log(obj.name.first);
-console.log(obj.school);
+//console.log(obj.school);
+console.log('5'!=5);
+console.log('5'!==5);
+console.log('5' == 5 || obj.school.name);
+if(2>5){
+    console.log("mathematics is wrong!");
+}
+else{
+    console.log("this will print");
+    const str='';// Empty string always false 
+    let confusion=500*'abc';
+    console.log(confusion);
+    if(str){
+        console.log("will it printf?");
+    }
+}
+
+const marks={
+    math:50,
+    phy:45,
+    che:42,
+    practical:{
+        phy: 40,
+        che:40
+    }
+}
+
+let total = marks.math+marks.phy+marks.che;
+total += (marks.practical.phy  && marks.practial) || 0;
+console.log(total);
+
+console.log(true ==2);
+console.log(5+parseInt('4a'));
+console.log((0.1+0.2).toFixed(2));
+const newChar='Rabi';
+console.log(newChar.toLowerCase()=='rabi');
