@@ -31,7 +31,9 @@ const obj={
         first:"Rabishankar",
         second:"Khanrah"},
     age :32,
+  
     roll:11200125044,
+    school:"abc school",
     isStudent: true
 
 }
