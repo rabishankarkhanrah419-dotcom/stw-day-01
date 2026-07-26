@@ -30,7 +30,7 @@ const obj={
     name:{
         first:"Rabishankar",
         second:"Khanrah"},
-    age :21,
+    age :50,
     roll:11200125044,
     school:"abc school",
     isStudent: true
